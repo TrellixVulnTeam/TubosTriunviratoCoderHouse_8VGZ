@@ -186,7 +186,6 @@ h3{
     font-family: 'Dela Gothic One', cursive, Arial, Helvetica, sans-serif;
     font-size: small;
 }
-
 .pqs{
     color: white ;
     background-color: coral;
@@ -428,32 +427,54 @@ h3{
 
 @import 'operacionesass';
 
-.IndexCarrouselLetraM{ 
-    font-family: 'Montserrat', sans-serif;
-}
-
-.IndexCarrouselLetraD{
+.IndexCarrouselLetraM {
+    font-family: 'Montserrat', sans-serif; }
+  
+  .IndexCarrouselLetraD {
+    font-family: 'Dela Gothic One', cursive, Arial, Helvetica, sans-serif; }
+  
+  .footerletter {
     font-family: 'Dela Gothic One', cursive, Arial, Helvetica, sans-serif;
-}
-
-.footerletter{
+    font-size: 15px; }
+  
+  .IndexCarrouselLetraD__footer {
     font-family: 'Dela Gothic One', cursive, Arial, Helvetica, sans-serif;
-    font-size: 15px;
-}
-
-.IndexCarrouselLetraD__footer{
-    font-family: 'Dela Gothic One', cursive, Arial, Helvetica, sans-serif;
-    font-size: 15px;
-
-}
-.IndexCarrouselLetraD__footer--modificado{
+    font-size: 15px; }
+  
+  .IndexCarrouselLetraD__footer--modificado {
     font-family: 'Dela Gothic One', cursive, Arial, Helvetica, sans-serif;
     font-size: 15px;
-    border-bottom: chocolate 2px solid;
-
-}
-
-footer{
-    background-color:lightgray;
-}
+    border-bottom: chocolate 2px solid; }
+  
+  .qsspace{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 80px;
+  }
+  
+  .cardtt1{
+    transition: 2s;
+    margin-bottom: 20px;
+  }
+  .cardtt1:hover{
+    transform: scale(1.1, 1.2);
+  }
+  
+  .cardtt2{
+    transition: 2s;
+    margin-bottom: 20px;
+  }
+  .cardtt2:hover{
+    transform: scale(1.1, 1.2);
+  }
+  
+  .cardtt3{
+    transition: 2s;
+    margin-bottom: 20px;
+  }
+  .cardtt3:hover{
+    transform: scale(1.1, 1.2);
+  }
 
