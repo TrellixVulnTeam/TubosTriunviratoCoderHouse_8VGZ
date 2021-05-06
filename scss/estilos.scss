@@ -1,0 +1,459 @@
+
+h1{
+    color: black;
+    font-family:'Dela Gothic One', cursive, Arial, Helvetica, sans-serif;
+}
+
+h2{
+    color: chocolate;
+    font-family:'Dela Gothic One', cursive, Arial, Helvetica, sans-serif;
+}
+
+
+.quienesletra{
+    color: brown;
+    font-size: 25px;
+}
+
+
+#info{
+    color: white;
+}
+
+.quienesletra{
+    color: brown;
+    font-size: 25px;
+}
+
+#info{
+    color: white;
+}
+
+th{
+    border: 2px solid;
+}
+
+tr, td{
+    border: 1px solid;
+}
+
+.info2{
+    color: chocolate;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Dela Gothic One', cursive, Arial, Helvetica, sans-serif;
+    transition: 2s;
+    grid-area: infopr;
+}
+
+.info2:hover{
+    transform: scale(1.1,1.2) ;
+}
+
+
+.tubos{ 
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Dela Gothic One', cursive, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+
+
+    
+
+h3{
+    color: white;
+}
+
+.li1{
+    color: black;
+    font-family: 'Dela Gothic One', cursive, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: gainsboro;
+}
+
+
+.bigtittle{
+    font-size: 40px;
+    font-family: 'Dela Gothic One', cursive, Arial, Helvetica, sans-serif;
+    text-align: center;
+    transition: 2s;
+}
+
+.bigtittle:hover {
+    transform: scale(1.1,1.3);
+}
+
+.center{
+    text-align: center;
+}
+
+.list-t{
+    list-style: none;
+}
+
+.FondoDeLaPaginaWeb{
+    background-color: white;
+}
+
+.letter{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.quienessomosspace{
+    text-align: center;
+    margin: 35px;
+    color: chocolate;
+    }
+
+.spacefooter{
+    margin: 3%;
+}
+
+
+.letterw{
+    color: black;
+    margin: 5px;
+}
+
+
+.tubodecartonimg{
+    margin: 5px;
+    padding: 5px;
+    max-width: 500px;
+    width: 500px;
+    border: black 2px solid;
+    transition: 2s;
+}
+
+.tubodecartonimg:hover {
+    transform: scale(1.1,1.2);
+}
+
+.pindex{
+    background-color: burlywood;
+    font-family: 'Dela Gothic One', cursive, Arial, Helvetica, sans-serif;
+    font-weight: 1px;
+    padding: 15px;
+    width: 100%;
+    margin: 10px;
+    border: solid 2px black;
+    border-radius: 15px;
+}
+
+.sectionindex{
+    display: flex;
+    flex-wrap: wrap;
+    grid-area: descripcion;
+}
+
+.imgtubos{
+    width: 100%;
+    max-width: 300px;
+    background-color:none;
+    display: flex;
+    flex-flow: column wrap;
+    grid-area: fotostubos;  
+    img{ 
+        width: 100%;
+   max-width: 250px;
+   margin: 2px;
+    border: black 2px solid;
+    border-radius: 15px;
+    }
+ }
+
+ .comosefabricanletter{
+    font-family: 'Dela Gothic One', cursive, Arial, Helvetica, sans-serif;
+    color: black;
+    margin-top: 15px;
+    font-size: 16px;
+    margin-top: 50px;
+    border-bottom: chocolate 2px solid;
+}
+
+.centermap{ 
+    display: flex;
+
+
+}
+
+.datessg{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Dela Gothic One', cursive, Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.pqs{
+    color: white ;
+    background-color: coral;
+    font-size: 26px;
+    font-weight: 100;
+    margin: 3px;
+    font-family: 'Dela Gothic One', cursive, Arial, Helvetica, sans-serif;
+}
+
+.imgqs{ 
+    background-color: none;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: none;
+    grid-area: fotospr;
+    img{ 
+        height: auto;
+    width: 100%;
+    max-width: 250px;
+    margin: 10px;
+    padding: 5px;
+    border: black 2px solid;
+    border-radius: 10px;
+    grid-area: fotospr;
+    }
+}
+
+.primgs{
+    width: 100%;
+    max-width: 350px;
+    background-color: none;
+    display: flex;
+    flex-flow: nowrap;
+
+    img{
+        height: 250px;
+        margin: 50px 300px 50px 10px;
+    border: black 2px solid;
+     border-radius: 40px ;
+     width: 100%;
+    max-width: 300px;
+        grid-area: fotostubos; 
+    }
+}
+
+.realizarcomprapr{
+    display: flex;
+    height: 10px;
+    margin-top: 70px;
+    margin-bottom: 60px;
+    padding: 30px;
+    flex-direction: column;
+    justify-content: center;
+    font-size: small;
+    font-family:'Dela Gothic One', cursive, Arial, Helvetica, sans-serif;
+}
+
+.datosclientes{
+    margin-top: 150px;
+}
+
+
+.iframevid{
+  width: 600px;
+  height: 300px;
+  display: flex;
+}
+
+.productos{
+    border-bottom: coral 2px solid;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-family:'Dela Gothic One', cursive, Arial, Helvetica, sans-serif;
+    margin: 3%;
+}
+
+.letternt{
+    text-decoration: none;
+    color: chocolate;
+}
+
+.mapmgn{
+    margin-bottom: 50px;
+}
+
+.letterct{
+    font-family:'Dela Gothic One', cursive, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.tubodecartonimg{
+    width: 100%;
+    max-width: 200px;
+}
+
+.navbst{
+    font-family: 'Dela Gothic One', cursive, Arial, Helvetica, sans-serif;;
+
+}
+
+.mainmenu{
+    width: 100%;
+    max-width: 500px;
+    font-family: 'Dela Gothic One', cursive, Arial, Helvetica, sans-serif;;
+}
+
+.mainmenu ul{
+    background-color: black;
+    list-style: none;
+    font-size: 0;
+    color: white;
+}
+
+.mainmenu li{
+    background-color:white;
+    display: inline-block;
+    position: relative;
+    font-size: 16px;
+    border-right: coral 2px dotted;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    color: white;
+
+}
+
+
+.mainmenu a{
+    color: white;
+    text-decoration: none;
+}
+
+.mainmenu ul li{
+    display: inline-block;
+    width: 100%;
+}
+
+
+.mainmenu ul li:hover{
+    background-color:chocolate;
+
+}
+
+.mainmenu li{
+    background-color: white;
+    display: inline-block;
+    font-size: 16px;
+    padding: 15px;
+    text-align: center;
+}
+
+.mainmenu ul ul{
+    background-color: white;
+    display: none;
+    position: absolute;
+}
+
+.mainmenu ul li{
+    display: inline-block;
+}
+
+.mainmenu ul ul li{
+    display: block;
+}
+
+.mainmenu ul li:hover ul{
+    display: block;
+    font-family: 'Dela Gothic One', cursive, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.footerlt{
+    grid-area: footer;
+}
+
+.footerlt ul{
+    font-family: 'Dela Gothic One', cursive, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+
+.header{
+    grid-area: header;
+}
+
+.tubosft{
+    grid-area: tubos;
+}
+
+.tubosinicio{
+    max-width: 100%;
+    width: 800px;
+    height: auto;
+
+}
+
+.fabricaciont{
+    grid-area: fabricacion;
+}
+
+.tubospr{
+    grid-area: tubos;
+}
+
+.headerqs{
+    grid-area: header;
+}
+
+.headercs{
+    grid-area: header;
+}
+
+.contactanosl{ 
+    color: white ;
+    background-color: coral;
+    font-size: 26px;
+    font-weight: 100;
+    margin: 10px;
+    font-family: 'Dela Gothic One', cursive, Arial, Helvetica, sans-serif;
+
+}
+
+.himg{
+    height: 600px;
+    object-fit: cover;
+}
+
+.DescripcionLetras__default{
+    font-family: 'Dela Gothic One', cursive, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+@import 'operacionesass';
+
+.IndexCarrouselLetraM{ 
+    font-family: 'Montserrat', sans-serif;
+}
+
+.IndexCarrouselLetraD{
+    font-family: 'Dela Gothic One', cursive, Arial, Helvetica, sans-serif;
+}
+
+.footerletter{
+    font-family: 'Dela Gothic One', cursive, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.IndexCarrouselLetraD__footer{
+    font-family: 'Dela Gothic One', cursive, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+}
+.IndexCarrouselLetraD__footer--modificado{
+    font-family: 'Dela Gothic One', cursive, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-bottom: chocolate 2px solid;
+
+}
+
+footer{
+    background-color:lightgray;
+}
+

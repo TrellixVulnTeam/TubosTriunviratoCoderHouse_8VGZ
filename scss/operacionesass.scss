@@ -1,0 +1,64 @@
+/*Condicional*/
+$diaynoche: dia;
+
+.FondoDeLaPaginaWeb{
+    @if $diaynoche==noche {
+        background-color: black;
+        h1{
+            color: white;
+        }
+        h3{
+            color: white;
+        }
+        h6{
+            color: white;
+        }
+        label{
+            color: white;
+        }
+
+        
+    }
+}
+
+/*Bucle y Extend*/ 
+@for $imagespr from 1 through 3 {
+    .images__productos--medianas-#{$imagespr} {
+        border: chocolate 2px solid;
+        border-radius: 40px;
+        width: 100%;
+        max-width: 300px;
+        height: 250px;
+        @extend .primgs;
+    }
+}
+
+/*Complementario*/
+
+/*Bucle*/
+@for $buttons from 1 through 3 {
+    .btn--#{$buttons} {
+        margin-left: 90px *$buttons;
+    }
+}
+
+/*Each*/
+@each $containerbi in red, white, blue {
+    .#{$containerbi}--container {
+        background-color: #{$containerbi}
+    }
+}
+
+/*Mapas*/
+
+$buttonscolores: (
+    color1: red ,
+    color2: white ,
+    color3: rgb(41, 36, 36)
+);
+ 
+@each $color in $buttonscolores {
+    .btn--#{$color} {
+        background-color: $color;
+    }
+}
