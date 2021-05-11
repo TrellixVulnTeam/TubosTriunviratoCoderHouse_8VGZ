@@ -433,3 +433,44 @@ h3 {
 
 .cardtt3:hover {
   transform: scale(1.1, 1.2); }
+
+.colorComoSeFabrican {
+  background-color: chocolate; }
+
+.curved {
+  background: chocolate;
+  color: #fff;
+  text-align: center; }
+
+.curved h3 {
+  color: white;
+  font-size: 40px;
+  font-family: 'Dela Gothic One', cursive, Arial, Helvetica, sans-serif; }
+
+.curved p {
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  margin: 20px 20px 20px 20px;
+  list-style: none;
+  color: #fff; }
+
+.curved svg {
+  display: block; }
+
+.IndexCarrouselLetraD__novedades {
+  font-family: 'Dela Gothic One', cursive, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: chocolate;
+  margin-top: 50px;
+  border-bottom: chocolate 2px solid; }
+
+.img__novedades {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+  .img__novedades img {
+    border: 2px chocolate solid;
+    margin: 20px;
+    width: auto;
+    height: auto; }
