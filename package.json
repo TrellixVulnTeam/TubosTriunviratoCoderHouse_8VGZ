@@ -13,5 +13,14 @@
   "devDependencies": {
     "node-sass": "^5.0.0",
     "nodemon": "^2.0.7"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliantfernandez/TubosTriunviratoCoderHouse.git"
+  },
+  "bugs": {
+    "url": "https://github.com/juliantfernandez/TubosTriunviratoCoderHouse/issues"
+  },
+  "homepage": "https://github.com/juliantfernandez/TubosTriunviratoCoderHouse#readme"
 }
