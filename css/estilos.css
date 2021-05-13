@@ -474,3 +474,33 @@ h3 {
     margin: 20px;
     width: auto;
     height: auto; }
+
+.menu__principal {
+  background-color: black;
+  height: 75px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #fff; }
+
+.menu__items {
+  display: flex;
+  list-style: none;
+  margin-right: 30px; }
+  .menu__items li {
+    border-radius: 3px;
+    margin: 0 5px; }
+  .menu__items a {
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    color: white; }
+
+.menu__logo {
+  color: white;
+  font-family: 'Dela Gothic One', cursive, Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  padding: 0 80px;
+  font-weight: bold; }
