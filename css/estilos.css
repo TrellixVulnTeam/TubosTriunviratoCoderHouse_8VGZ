@@ -496,9 +496,8 @@ h3 {
   width: 650px;
   height: 450px;
   float: left;
-  margin-left: 40px;
   border-radius: 20px;
-  margin: 30px; }
+  margin: 30px 30px 30px 90px; }
 
 .tubostt__productos {
   display: flex;
@@ -524,10 +523,11 @@ h3 {
   justify-content: center; }
 
 .letraIndexProductos__titulos {
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  margin-left: 90px; }
 
 .letraIndexProductos__descripcion {
-  margin: 0 10px 30px 50px; }
+  margin: 0 10px 30px 90px; }
 
 .img__index__productos2 {
   width: 650px;
@@ -539,7 +539,11 @@ h3 {
 body {
   text-align: center; }
 
+.sobreNosotros__space {
+  margin: 60px; }
+
 .sobreNosotros__titulo {
+  text-decoration: none;
   display: inline-block;
   position: relative;
   color: chocolate;
@@ -561,22 +565,26 @@ body {
 
 .aboutusIndex__fotos {
   display: flex;
-  justify-content: space-evenly; }
-
-img {
-  margin: 30px;
-  width: 300px;
-  height: 250px; }
+  flex-direction: column; }
+  .aboutusIndex__fotos img {
+    margin: 10px;
+    width: 500px;
+    height: 450px; }
 
 .aboutusIndex__titulos {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 30px; }
+  margin-top: 10px; }
 
 .aboutusIndex__descripciones {
   display: flex;
   justify-content: space-evenly;
   align-items: center; }
+
+.IndexCarrouselLetraM--aboutus {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 20px; }
 
 /* .sobreNosotrosFamilia{
         width: 300px;
@@ -595,3 +603,48 @@ img {
         height: 250px;
         float: right;
     }*/
+/*  .aboutusIndex__fotos{
+        display: flex;
+        justify-content: space-evenly;
+    img{
+        margin: 30px;
+        width: 300px;
+        height: 250px;
+    }}
+
+    .aboutusIndex__titulos{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 30px;
+        
+    }
+
+    .aboutusIndex__descripciones{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }*/
+.btn-buynow {
+  border-radius: 50px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 270px; }
+
+.btn-buynow--letter {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: chocolate; }
+
+.btn-buynow:hover {
+  cursor: pointer;
+  background: rgba(255, 106, 0, 0.5); }
+
+@media only screen and (max-width: 768px) {
+  .aboutusIndex__fotos {
+    display: flex;
+    flex-direction: column; }
+    .aboutusIndex__fotos img {
+      margin: 30px;
+      width: 300px;
+      height: 250px; } }
