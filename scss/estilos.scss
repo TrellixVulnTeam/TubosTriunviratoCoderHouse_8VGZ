@@ -252,7 +252,18 @@ h3{
 .iframevid{
   width: 600px;
   height: 300px;
-  display: flex;
+  border-radius: 30px;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-right: 90px;
+
+}
+.maquina_index_comosefabrican{
+    width: 600px;
+    height: 300px;
+    border-radius: 30px;
+    margin: 10px;
+
 }
 
 .productos{
@@ -511,10 +522,8 @@ h3{
       .img__novedades{
           display: flex;
           flex-direction: row;
-          flex-wrap: wrap;
           justify-content: space-evenly;
           img{
-              border: 2px chocolate solid;
               margin: 20px;
               width: auto;
               height: auto;
@@ -591,6 +600,7 @@ h3{
         float: right;
         margin: 30px 40px 30px 40px;
         border-radius: 20px;
+        
     }
 
     body{
@@ -626,7 +636,7 @@ h3{
 
     .aboutusIndex__fotos{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     img{
         margin: 10px;
         width: 500px;
@@ -652,45 +662,6 @@ h3{
         font-weight: 600;
         font-size: 20px
     }
-   /* .sobreNosotrosFamilia{
-        width: 300px;
-        height: 250px;
-        float: left;
-    }
-
-    .sobreNosotrosFinance{
-        width: 300px;
-        height: 250px;
-        justify-content: center;
-    }
-
-    .sobreNosotrosEcologia{
-        width: 300px;
-        height: 250px;
-        float: right;
-    }*/
-/*  .aboutusIndex__fotos{
-        display: flex;
-        justify-content: space-evenly;
-    img{
-        margin: 30px;
-        width: 300px;
-        height: 250px;
-    }}
-
-    .aboutusIndex__titulos{
-        display: flex;
-        justify-content: space-evenly;
-        margin-top: 30px;
-        
-    }
-
-    .aboutusIndex__descripciones{
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        
-    }*/
     .btn-buynow{
         border-radius: 50px;
         float: left;
@@ -707,6 +678,8 @@ h3{
         cursor: pointer;
         background: rgba(255, 106, 0, 0.5);
     }
+
+
     @media only screen and (max-width:768px){
         .aboutusIndex__fotos{
             display: flex;
@@ -716,4 +689,72 @@ h3{
             width: 300px;
             height: 250px;
         }}
+        .letraIndexProductos__titulos{
+            margin: 10px;
+            font-size: 10px;
+            grid-area: titulo1;
+        }
+        .letraIndexProductos__descripcion{
+            margin: 10px;
+            font-size: 12px;
+            grid-area: descripcion1;
+        }
+        .img__index__productos1{
+            width: 250px;
+            height: 150px;
+            float: right;
+            margin: 30px 40px 30px 40px;
+            border-radius: 20px;
+            grid-area: foto1;
+        }
+        .img__index__productos2{
+            width: 250px;
+            height: 150px;
+            float: right;
+            margin: 30px 40px 30px 40px;
+            border-radius: 20px;
+            grid-area: foto1;
+        }
+        .padre{
+            display: flex;
+            background-image: linear-gradient(to left, lightsalmon, chocolate);
+            margin: 50px 0px 30px 0px; 
+        }
+    
+        .padre2{
+            display: flex;
+            background-image: linear-gradient(to right, lightsalmon, chocolate);
+            margin: 0px;
+        }
+        .grid{
+            display: grid;
+            grid-template-areas: 
+            "titulo1"
+            " descripcion1"
+            "foto1"
+            ;
+            grid-template-columns: auto;
+            grid-template-rows: auto;
+        
+        }
+
+        .iframevid{
+            width: 400px;
+            height: 200px;
+            border-radius: 30px;
+            margin-left: 10px;
+            margin-top: 10px;
+            margin-right: 90px;
+          
+          }
+          .maquina_index_comosefabrican{
+              width: 400px;
+              height: 200px;
+              border-radius: 30px;
+              margin: 10px;
+          
+          }
+
+                            
     }
+
