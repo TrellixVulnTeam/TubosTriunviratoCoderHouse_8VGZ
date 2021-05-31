@@ -201,9 +201,8 @@ h3 {
   width: 600px;
   height: 300px;
   border-radius: 30px;
-  margin-left: 30px;
-  margin-top: 10px;
-  margin-right: 90px; }
+  margin-left: 450px;
+  margin-top: 10px; }
 
 .maquina_index_comosefabrican {
   width: 600px;
@@ -615,6 +614,9 @@ body {
   margin-left: 40px;
   margin-top: 10px;
   margin-right: 90px; }
+
+.maquina_index_comosefabrican--modificado {
+  border-radius: 25%; }
 
 @media only screen and (max-width: 768px) {
   .aboutusIndex__fotos {
